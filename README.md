@@ -178,5 +178,9 @@ Both objects share the same structure:
 
 ## License
 
-[MIT](LICENSE) — free to use, including in commercial projects.  
-Contributions are published under the same license.
+**Adapter Editor (source code):** [MIT License](LICENSE)
+
+**Adapter files (`/adapters/*.json`):** [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  
+Some adapters are based on the [KiCad Libraries](https://gitlab.com/kicad/libraries/kicad-footprints),
+which are licensed under CC-BY-SA 4.0. Derived adapters are marked with
+`"source": "Based on KiCad Libraries"` in their `meta` field.
