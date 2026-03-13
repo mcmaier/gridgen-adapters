@@ -15,6 +15,16 @@
     "properties": {
       "id": { "type": "string", "pattern": "^[a-z0-9_-]+$" },
       "name": { "type": "string" },
+      "meta": {
+        "type": "object",
+        "description": "Optional metadata for attribution and licensing",
+        "properties": {
+          "author": { "type": "string" },
+          "license": { "type": "string" },
+          "source": { "type": "string" }
+        },
+        "additionalProperties": false
+      },
       "category": { "type": "string" },
       "pitch": { "type": "number", "exclusiveMinimum": 0 },
       "color": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
